@@ -1,7 +1,4 @@
 
-  # Review Attached File
-
-  This is a code bundle for Review Attached File. The original project is available at https://www.figma.com/design/LLXkdsicz5nS1kiXSmO7zH/Review-Attached-File.
 
   ## Running the code
 
