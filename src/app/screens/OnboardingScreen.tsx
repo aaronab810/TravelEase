@@ -55,7 +55,7 @@ export default function OnboardingScreen() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#F7F5F2]" />
       </div>
-      <div className="flex-1 px-6 -mt-8 pb-8">
+      <div className="relative z-10 flex-1 px-6 -mt-8 pb-8">
         <h1 className="text-[28px] font-bold text-gray-900 mb-2">Welcome to TravelEase</h1>
         <p className="text-gray-600 mb-6">Select your travel profile to get a personalised experience</p>
         <div className="space-y-4">
