@@ -33,7 +33,7 @@ export default function BaggageTrackerScreen() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto">
       <div className="bg-[#1A5C45] px-6 pt-12 pb-6 rounded-b-3xl">
         <div className="flex items-center gap-4 mb-2">
           <button onClick={() => navigate(-1)} className="text-white p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors"><ArrowLeft className="w-6 h-6" /></button>

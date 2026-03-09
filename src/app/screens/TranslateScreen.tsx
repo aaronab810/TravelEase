@@ -14,7 +14,7 @@ export default function TranslateScreen() {
   const primaryColor = isStudent ? '#1A3A5C' : '#1A5C45';
 
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto">
       <div style={{ backgroundColor: primaryColor }} className="px-6 pt-12 pb-6">
         <h1 className="text-white text-[28px] font-bold">Translate</h1>
         <p className="text-white/80 text-sm mt-1">Instant translation anywhere</p>
@@ -55,7 +55,7 @@ export default function TranslateScreen() {
           <h3 className="font-semibold text-gray-900 mb-4">Quick Phrases</h3>
           <div className="flex flex-wrap gap-2">
             {quickPhrases.map((phrase) => (
-              <button key={phrase} className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm transition-colors hover:text-white" style={{ hover: { backgroundColor: primaryColor } }}>{phrase}</button>
+              <button key={phrase} className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm transition-colors hover:text-white hover:bg-gray-700">{phrase}</button>
             ))}
           </div>
         </div>

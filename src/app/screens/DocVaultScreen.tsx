@@ -11,7 +11,7 @@ export default function DocVaultScreen() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto">
       <div className="bg-[#1A3A5C] px-6 pt-12 pb-6">
         <h1 className="text-white text-[28px] font-bold">Your Documents 📁</h1>
         <p className="text-white/80 text-sm mt-1">Student Visa Application — Frankfurt</p>

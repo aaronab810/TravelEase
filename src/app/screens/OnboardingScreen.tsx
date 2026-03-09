@@ -47,15 +47,14 @@ export default function OnboardingScreen() {
 
   return (
     <div className="min-h-screen bg-[#F7F5F2] flex flex-col max-w-[390px] mx-auto">
-      <div className="relative h-[280px] overflow-hidden">
+      <div className="h-[280px] w-full">
         <img
           src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkdWJhaSUyMHNreWxpbmUlMjBzdW5zZXR8ZW58MXx8fHwxNzczMDExMDk1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Dubai Skyline"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-b-3xl"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#F7F5F2]" />
       </div>
-      <div className="relative z-10 flex-1 px-6 pt-6 pb-8 bg-[#F7F5F2] rounded-t-3xl -mt-6">
+      <div className="flex-1 px-6 pt-6 pb-8">
         <h1 className="text-[28px] font-bold text-gray-900 mb-2">Welcome to TravelEase</h1>
         <p className="text-gray-600 mb-6">Select your travel profile to get a personalised experience</p>
         <div className="space-y-4">

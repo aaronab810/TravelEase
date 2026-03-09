@@ -4,7 +4,7 @@ import StudentBottomNav from '../components/StudentBottomNav';
 // STUDENT MODE ONLY — Ayaan's airport navigation
 export default function StudentNavigateScreen() {
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto relative">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto relative">
       <div className="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1762801157192-04ed43daa37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhaXJwb3J0JTIwdGVybWluYWwlMjBtYXB8ZW58MXx8fHwxNzczMDExMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Airport Map" className="w-full h-full object-cover opacity-40" />
       </div>

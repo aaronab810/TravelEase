@@ -77,7 +77,7 @@ export default function PackingListScreen() {
   const progress = (packedItems / totalItems) * 100;
 
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto">
       {/* Header */}
       <div className="bg-[#1A3A5C] px-6 pt-12 pb-6 rounded-b-3xl">
         <div className="flex items-center gap-4 mb-6">

@@ -3,7 +3,7 @@ import BottomNav from '../components/BottomNav';
 
 export default function NavigateScreen() {
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto relative">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto relative">
       {/* Map Background */}
       <div className="absolute inset-0">
         <img

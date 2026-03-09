@@ -15,7 +15,7 @@ export default function HomeScreen() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F7F5F2] pb-20 max-w-[390px] mx-auto">
+    <div className="min-h-screen bg-[#F7F5F2] pb-24 max-w-[390px] mx-auto">
       <div className="bg-[#1A5C45] px-6 pt-12 pb-8 rounded-b-3xl">
         <h1 className="text-white text-[28px] font-bold mb-6">Where to next, {userName}?</h1>
         <div className="bg-white rounded-xl flex items-center gap-3 px-4 py-3 shadow-lg">
